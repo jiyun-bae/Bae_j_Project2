@@ -56,7 +56,7 @@ h2
 
 #siteContainer
 {
-	margin: 0 auto; /*center container*/
+	margin: 0 auto;
 	width: 960px;
 }
 
@@ -109,7 +109,6 @@ h2
 
 #mainNav ul li a:hover
 {
-	/*transition not supported with gradients*/
 	background: rgb(226,29,22);
 	background: -moz-linear-gradient(top, rgba(226,29,22,1) 0%, rgba(170,8,3,1) 100%);
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(226,29,22,1)), color-stop(100%,rgba(170,8,3,1)));
@@ -190,6 +189,8 @@ h2
 	width: 500px;
 	height: 100px;
 	text-transform: uppercase;
+	margin-top: 30px;
+	margin-left: 40px;
 }
 
 #footerNav ul li
@@ -215,6 +216,7 @@ h2
 {
 	margin-left: auto;
 	margin-top: 100px;
+	margin-right: 10px;
 }
 
 
