@@ -1,0 +1,220 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* HTML Selectors */
+
+body
+{
+	font-family: 'Piedra', cursive;
+	font-weight: 400;
+	font-size: 14px;
+	color: #333;
+	background-color: #fff;
+	border-top: 10px solid #DD8E58;
+}
+
+p
+{
+	line-height: 20px;
+	font-family: 'Tenali Ramakrishna', sans-serif;
+	font-size: 20px;
+	text-align: justify;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+a:hover, a:active
+{
+	color: #ccc;
+}
+
+h2
+{
+	color: #1F3B2C;
+	letter-spacing: 2px;
+}
+
+
+/* Classes */
+
+.hidden
+{
+	display: none;
+}
+
+.roundShadow
+{
+	border-radius: 7px;
+	box-shadow: 0px 0px 5px rgba(50, 50, 50, 0.4);
+}
+
+/* Main page elements*/
+
+
+#siteContainer
+{
+	margin: 0 auto; /*center container*/
+	width: 960px;
+}
+
+#mainHeader
+{
+	margin-top: 40px;
+	padding-bottom: 20px;
+	height: 100px; /*static content, hard coded height okay*/
+	display: flex;
+	flex-direction: row;
+}
+
+#logo
+{
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+#mainNav
+{
+	margin-left: auto;
+	display: flex;
+    flex-direction: column;
+	margin-top: 70px;
+}
+
+#mainNav ul
+{
+	text-transform: uppercase;
+	margin-top: 0;
+	display: flex;
+	flex-direction: row;
+	margin-right: -88px;
+}
+
+#mainNav ul li a
+{
+	display: block;
+	width: 100px;
+	background-color: red;
+	color: #DD8E58;
+	margin-left: 20px;
+	text-align: center;
+	padding: 8px;
+	font-size: 16px;
+	font-weight: 600;	
+	border-radius: 7px;
+	background: #E5D1B8;
+}
+
+#mainNav ul li a:hover
+{
+	/*transition not supported with gradients*/
+	background: rgb(226,29,22);
+	background: -moz-linear-gradient(top, rgba(226,29,22,1) 0%, rgba(170,8,3,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(226,29,22,1)), color-stop(100%,rgba(170,8,3,1)));
+	background: -webkit-linear-gradient(top, rgba(226,29,22,1) 0%,rgba(170,8,3,1) 100%);
+	background: -o-linear-gradient(top, rgba(226,29,22,1) 0%,rgba(170,8,3,1) 100%);
+	background: -ms-linear-gradient(top, rgba(226,29,22,1) 0%,rgba(170,8,3,1) 100%);
+	background: linear-gradient(to bottom, rgba(226,29,22,1) 0%,rgba(170,8,3,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e21d16', endColorstr='#aa0803',GradientType=0 );
+}
+
+#Introduction h2
+{
+	font-size: 40px;
+	margin-bottom: 30px;
+	margin-top: -200px;
+	text-align: center;
+}
+
+#Introduction p
+{
+	margin-left: 200px;
+	margin-top: -10px;
+}
+
+.productInfo img
+{
+	margin-top: 30px;
+}
+
+.productInfo h2
+{
+	font-size: 25px;
+	margin-left: 400px;
+	margin-top: -250px;
+}
+
+.productInfo p
+{
+	margin-left: 400px;
+	margin-top: 20px;
+
+}
+
+.Conclusion img
+{
+	margin-left: 670px;
+	margin-top: 70px;
+}
+
+.Conclusion h2
+{
+	font-size: 25px;
+	margin-top: -250px;
+	text-align: right;
+	margin-right: 300px;
+	margin-bottom: 25px;
+}
+
+.Conclusion p
+{
+	text-align: justify;
+	margin-right: 310px;
+
+}
+
+#mainFooter
+{
+	margin-top: 130px;
+	margin-bottom: 40px;
+	display: flex;
+	flex-direction: row;
+	width: 1050px;
+	background-color: #E5D1B8;
+}
+
+#footerNav
+{
+	width: 500px;
+	height: 100px;
+	text-transform: uppercase;
+}
+
+#footerNav ul li
+{
+	display: inline;
+	font-size: 15px;
+	margin-right: 20px;
+}
+
+#footerNav ul li a
+{
+	color: #666;
+}
+
+#footerNav ul li a:hover
+{
+	color: #333;
+	border-bottom: solid 3px #333;
+	padding-bottom: 5px;
+}
+
+#copyRight
+{
+	margin-left: auto;
+	margin-top: 100px;
+}
+
+
